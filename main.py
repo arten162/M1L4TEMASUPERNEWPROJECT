@@ -12,7 +12,7 @@ def go(message):
         bot.send_message(message.chat.id, pokemon.info())
         bot.send_photo(message.chat.id, pokemon.show_img())
     else:
-        bot.reply_to(message, "Ты уже создал себе покемона")
+        bot.reply_to(message, "уже создал себе покемона")
 
 
 bot.infinity_polling(none_stop=True)
